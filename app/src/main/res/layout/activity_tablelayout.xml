@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:stretchColumns="1">
+
+    <TableRow>
+        <TextView
+            android:text=" Open..."
+            android:textColor="@color/colorText"
+            android:layout_gravity="left"
+            android:padding="@dimen/padding2"/>
+        <TextView
+            android:text="Ctrl-O"
+            android:textColor="@color/colorText"
+            android:layout_gravity="right"
+            android:padding="@dimen/padding2"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text=" Save..."
+            android:textColor="@color/colorText"
+            android:layout_gravity="left"
+            android:padding="@dimen/padding2"/>
+        <TextView
+            android:text="Ctrl-S"
+            android:textColor="@color/colorText"
+            android:layout_gravity="right"
+            android:padding="@dimen/padding2"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text=" Save As..."
+            android:textColor="@color/colorText"
+            android:layout_gravity="left"
+            android:padding="@dimen/padding2"/>
+        <TextView
+            android:text="Ctrl-Shift-S"
+            android:textColor="@color/colorText"
+            android:layout_gravity="right"
+            android:padding="@dimen/padding2"/>
+    </TableRow>
+
+    <View
+        android:layout_height="@dimen/line"
+        android:background="@color/colorText">
+    </View>
+
+    <TableRow>
+        <TextView
+            android:text=" X Import"
+            android:textColor="@color/colorText"
+            android:layout_gravity="left"
+            android:paddingTop="@dimen/padding2"
+            android:paddingEnd="@dimen/padding2"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text=" X Emport"
+            android:textColor="@color/colorText"
+            android:layout_gravity="left"
+            android:paddingTop="@dimen/padding2"
+            android:paddingEnd="@dimen/padding2"/>
+        <TextView
+            android:text="Ctrl-E"
+            android:textColor="@color/colorText"
+            android:layout_gravity="right"
+            android:padding="@dimen/padding2"/>
+    </TableRow>
+
+    <View
+        android:layout_height="@dimen/line"
+        android:background="@color/colorText">
+    </View>
+
+    <TableRow>
+        <TextView
+            android:text=" Quit"
+            android:textColor="@color/colorText"
+            android:layout_gravity="left"
+            android:padding="@dimen/padding2"/>
+    </TableRow>
+
+</TableLayout>

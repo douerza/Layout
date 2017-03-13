@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Button01Name">线性布局</string>
+    <string name="Button02Name">相对布局</string>
+    <string name="Button03Name">表格布局</string>
+
+</resources>
