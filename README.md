@@ -1,0 +1,13 @@
+#Android布局实验
+##主界面
+**运行APP，主界面如下图。图里有三个按钮，分布对应三种布局，点击按钮，跳转到对应布局界面。**
+![HOME](https://raw.githubusercontent.com/douerza/picture/master/work2/work2.1.png)
+##线性布局
+**点击线性布局按钮，跳转到线性布局界面，如下图。**
+![LinearLayout](https://raw.githubusercontent.com/douerza/picture/master/work2/work2.2.png)
+##相对布局
+**返回主界面，点击相对布局按钮，跳转到相对布局界面，如下图。**
+![RelativeLayout](https://raw.githubusercontent.com/douerza/picture/master/work2/work2.3.png)
+##表格布局
+**返回主界面，点击表格布局按钮，跳转到表格布局界面，如下图。**
+![TableLayout](https://raw.githubusercontent.com/douerza/picture/master/work2/work2.4.png)
